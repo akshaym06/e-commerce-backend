@@ -1,2 +1,2 @@
-# jwt-implementation
-Token and role based authentication using Spring Boot, JWT and MySQL.
+# E-commerce application (backend)
+Shopping website (Using Spring boot as backend)

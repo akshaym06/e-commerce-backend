@@ -39,7 +39,7 @@ public class WebSecurityConfiguration {
         http.authorizeHttpRequests(
                 (authz) -> {
                     try {
-                        authz.requestMatchers("/authenticate","/registerNewUser").permitAll()
+                        authz.requestMatchers("/authenticate","/registerNewUser","/addNewProduct").permitAll()
                                 .requestMatchers(HttpHeaders.ALLOW).permitAll()
                                 .anyRequest().authenticated()
                                 .and()
